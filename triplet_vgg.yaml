@@ -1,0 +1,7 @@
+LATENT_SIZE: 1024         # Size of the latent vector
+PERCEP_RATIO: .1          # Ratio of the Perceptual loss to other losses
+KLD_RATIO: .001           # Ratio of the VAE KL Divergence to other losses
+TRIP_RATIO: 1             # Ratio of the triplet loss to other losses
+RECON_RATIO: 1            # Ratio of the reconstruction loss to other losses
+OUTLIERS: "outliers"      # Don't change this
+TRAIN_TEST_SPLIT: .7      # Ratio of train/test split. We fix the seeds so the same split is generated each time.
